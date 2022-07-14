@@ -3,9 +3,9 @@
     }           
 .video-title {
     margin-top: 0;
-       font-size:  14px;
-       font-weight: 500;
-      line-height: 20px;
+    font-size:  14px;
+    font-weight: 500;
+    line-height: 20px;
     margin-bottom: 10px;
             }
 .video-author {
@@ -15,15 +15,18 @@
     font-size: 12px;
     color: rgb(96,96,96);
 }
+.video-link {
+    text-decoration: none;
+}
 .video-stats {      
 }
 .video-preview {
             
             }
 .video-info-grid {
-                display: grid;
-                grid-template-columns: 50px 1fr;
-            }
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
 .channel-picture {
                
             }
