@@ -1,14 +1,38 @@
 p {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 body {
-    /* This style below will be inherited */
-    font-family: Roboto, Arial;
-    margin: 0;
-    padding-top: 80px;
-    padding-left: 96px;
-    padding-right: 24px;
-    background-color: rgb(248,248,248);
+  /* This style below will be inherited */
+  font-family: Roboto, Arial;
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(248,248,248);
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 3;
+  cursor: pointer;
+}
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: Roboto, Arial;
+  font-size: 30px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
 }
